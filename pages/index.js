@@ -1,7 +1,13 @@
 import Head from 'next/head'
 import { Inter } from '@next/font/google'
 import { BsFillMoonStarsFill } from "react-icons/bs";
-
+import {
+  AiFillTwitterCircle,
+  AiFillLinkedin,
+  AiFillGithub,
+} from "react-icons/ai";
+import Image from 'next/image';
+import deved from "../public/pfp.jpg";
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -21,7 +27,7 @@ export default function Home() {
         
         
         <nav className="py-10 mb-12 flex justify-between">
-          <h1 className=" tex-xl font-burtons ">Developedbyed EderCrypto</h1>
+          <h1 className=" tex-xl font-burtons ">EderCrypto</h1>
           <ul className=" flex items-center">
             <li>
               <BsFillMoonStarsFill className=" cursor-pointer text-2xl"/>
@@ -34,11 +40,32 @@ export default function Home() {
         </nav>
 
         <div className="text-center p-10 py-10">
-            <h2 className="text-5xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-6xl">Eder Mtz.</h2>
+            <h2 className="text-5xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-6xl">Eder M.
+            </h2>
             <h3 className="text-2xl py-2 dark:text-white md:text-3xl">
-             Web3 Developer.</h3> 
+             Web3 Developer.
+             </h3> 
+            <p className="text-md py-5 leading-8 text-gray-800">Freelancer offering programming services. Join me below and let's get to work!
+
+            </p>
 
         </div>
+
+        <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
+          <AiFillTwitterCircle/>
+          <AiFillLinkedin/>
+          <AiFillGithub/>
+        </div>
+            <image src/>
+
+        <div>
+
+
+        </div>
+
+
+
+      
         </section>
       </main>
     </>

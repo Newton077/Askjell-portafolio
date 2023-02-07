@@ -7,7 +7,8 @@ import {
   AiFillGithub,
 } from "react-icons/ai";
 import Image from 'next/image';
-import deved from "../public/pfp.jpg";
+import yo from "../public/yo.png";
+
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -25,48 +26,48 @@ export default function Home() {
       <main className=" bg-white px-10">
         <section className="min-h-screen">
         
-        
-        <nav className="py-10 mb-12 flex justify-between">
-          <h1 className=" tex-xl font-burtons ">EderCrypto</h1>
-          <ul className=" flex items-center">
-            <li>
-              <BsFillMoonStarsFill className=" cursor-pointer text-2xl"/>
-            </li>
-                <li>  <a className= "bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
-                  href="#"> Resume </a>
-                </li>
-          </ul>
+          
+          <nav className="py-10 mb-12 flex justify-between">
+            <h1 className=" tex-xl font-burtons ">EderCrypto</h1>
+            <ul className=" flex items-center">
+              <li>
+                <BsFillMoonStarsFill className=" cursor-pointer text-2xl"/>
+              </li>
+                  <li>  <a className= "bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
+                    href="#"> Resume </a>
+                  </li>
+            </ul>
 
-        </nav>
+          </nav>
 
-        <div className="text-center p-10 py-10">
-            <h2 className="text-5xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-6xl">Eder M.
-            </h2>
-            <h3 className="text-2xl py-2 dark:text-white md:text-3xl">
-             Web3 Developer.
-             </h3> 
-            <p className="text-md py-5 leading-8 text-gray-800">Freelancer offering programming services. Join me below and let's get to work!
+          <div className="text-center p-10 py-10">
+              <h2 className="text-5xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-6xl">Eder M.
+              </h2>
+              <h3 className="text-2xl py-2 dark:text-white md:text-3xl">
+              Web3 Developer.
+              </h3> 
+              <p className="text-md py-5 leading-8 text-gray-800">Freelancer offering programming services. Join me below and let's get to work!
 
-            </p>
+              </p>
 
-        </div>
+          </div>
 
-        <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
-          <AiFillTwitterCircle/>
-          <AiFillLinkedin/>
-          <AiFillGithub/>
-        </div>
-            <image src/>
+          <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
+            <AiFillTwitterCircle/>
+            <AiFillLinkedin/>
+            <AiFillGithub/>
+          </div>
 
-        <div>
-
-
-        </div>
-
-
-
-      
+          <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
+          <Image src={yo} layout="fill" objectFit="cover" />
+          </div>
         </section>
+
+        <section>
+
+        </section>
+
+
       </main>
     </>
   )

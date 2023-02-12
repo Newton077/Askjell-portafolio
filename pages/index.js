@@ -29,8 +29,9 @@ export default function Home() {
           
             
             <nav className="py-10 mb-12 flex justify-between">
-              <h1 className=" tex-xl font-burton py-3 font-sans ">EderCrypto.eth</h1>
+              <h1 className=" text-2xl font-akira py-3 font-sans ">EderCrypto.eth</h1>
               <ul className=" flex items-center">
+              <div class="loader"></div>
                 <li><a>Projects</a></li>
                 <li><a>Abaout</a></li>
                 <li>
@@ -62,7 +63,7 @@ export default function Home() {
               <AiFillGithub/>
             </div>
 
-            <div className="mx-auto bg-gradient-to-b from-yellow-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
+            <div className="mx-auto bg-gradient-to-b from-yellow-500 rounded-full w-80 h-80 relative overflow-hidden mt-10 md:h-96 md:w-96">
             <Image src={yo} layout="fill" objectFit="cover" />
             </div>
           </section>
@@ -95,6 +96,8 @@ export default function Home() {
                 <p className="text-gray-800 py-1">Indesign</p>
               </div>
             </div>
+            
+
             
               
           </section>

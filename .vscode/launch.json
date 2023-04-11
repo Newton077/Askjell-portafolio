@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "chrome",
+            "name": "https://github.com/newton099/Askjell-portafolio.git",
+            "request": "launch",
+            "url": "https://github.com/newton099/Askjell-portafolio.git"
+        }
+    ]
+}

@@ -32,8 +32,7 @@ export default function Home() {
               <h1 className=" text-2xl font-akira py-3 font-sans ">EderCrypto.eth</h1>
               <ul className=" flex items-center">
               <div class="loader"></div>
-                <li><a>Projects</a></li>
-                <li><a>Abaout</a></li>
+                
                 <li>
                   <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className=" cursor-pointer text-2xl"/>
                 </li>
@@ -58,7 +57,7 @@ export default function Home() {
             </div>
 
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
-              <AiFillTwitterCircle/>
+              <AiFillTwitterCircle />
               <AiFillLinkedin/>
               <AiFillGithub/>
             </div>
@@ -83,18 +82,7 @@ export default function Home() {
             </div>
 
             <div>
-              <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-                <h3 className="text-lg font-medium pt-8 pb-2 ">Consulting</h3>
-                <p className="py-2">
-                  Are you interested in feedback for your current project? I can
-                  give you tips and tricks to level it up.
-                </p>
-                <h4 className="py-4 text-teal-600">Design Tools I Use</h4>
-                <p className="text-gray-800 py-1">Photoshop</p>
-                <p className="text-gray-800 py-1">Illustrator</p>
-                <p className="text-gray-800 py-1">Figma</p>
-                <p className="text-gray-800 py-1">Indesign</p>
-              </div>
+         
             </div>
             
 
